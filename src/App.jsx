@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   useLocation,
@@ -8,9 +8,20 @@ import {
 import Home from './pages/Home'
 import MenuPage from './pages/MenuPage'
 
-// Base path per il deploy (GitHub Pages serve sotto /LaTanadelGatto/).
-// In dev BASE_URL = "/" -> basename vuoto, in prod = "/LaTanadelGatto/".
-const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
+// Base path per gli asset (GitHub Pages serve sotto /LaTanadelGatto/).
+// Con HashRouter il routing avviene nel fragment (#/menu) e non richiede
+// fallback lato server: ogni URL diretto funziona senza 404.html custom.
+function Router() {
+  return (
+    <HashRouter>
+      <ScrollToHash />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<MenuPage />} />
+      </Routes>
+    </HashRouter>
+  )
+}
 
 function ScrollToHash() {
   const { hash, pathname } = useLocation()
@@ -30,18 +41,6 @@ function ScrollToHash() {
   }, [hash, pathname])
 
   return null
-}
-
-function Router() {
-  return (
-    <BrowserRouter basename={basename}>
-      <ScrollToHash />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<MenuPage />} />
-      </Routes>
-    </BrowserRouter>
-  )
 }
 
 function App() {

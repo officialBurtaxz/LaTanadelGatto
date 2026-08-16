@@ -414,7 +414,7 @@ export default function MenuPage() {
                 Prenota
               </a>
               <Link
-                to="/#location"
+                to={{ pathname: '/', hash: '#location' }}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-gatto-900 text-gatto-cream font-semibold rounded-full border border-gatto-gold/30 hover:bg-gatto-800 transition-colors"
               >
                 <MapPin size={18} />

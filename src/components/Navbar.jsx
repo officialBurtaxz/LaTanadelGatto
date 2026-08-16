@@ -6,11 +6,11 @@ import { contacts } from '../data/contacts'
 import { asset } from '../utils/asset'
 
 const navLinks = [
-  { label: 'Home', to: '/#home' },
-  { label: 'Il Locale', to: '/#about' },
+  { label: 'Home', to: { pathname: '/', hash: '#home' } },
+  { label: 'Il Locale', to: { pathname: '/', hash: '#about' } },
   { label: 'Menu', to: '/menu' },
-  { label: 'Recensioni', to: '/#reviews' },
-  { label: 'Dove Siamo', to: '/#location' },
+  { label: 'Recensioni', to: { pathname: '/', hash: '#reviews' } },
+  { label: 'Dove Siamo', to: { pathname: '/', hash: '#location' } },
 ]
 
 function NavItem({ link, onClick, className }) {
