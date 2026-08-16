@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Flame, Pizza, Beef, Bike, PawPrint, Clock } from 'lucide-react'
+import { Flame, Pizza, Beef, Bike, PawPrint, Car } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -13,13 +13,13 @@ const highlights = [
   },
   {
     icon: Pizza,
-    title: 'Pizze & Speciali',
-    text: 'Dalla classica Margherita alle creazioni gourmet della casa, sempre con ingredienti freschi.',
+    title: 'Pizze & Specialità',
+    text: 'Dalla classica Margherita alle creazioni signature della casa, sempre con ingredienti freschi.',
   },
   {
     icon: Beef,
     title: 'Hamburger',
-    text: 'Carne di manzo selezionata, pane di focaccia e salse preparate alla Tana.',
+    text: 'Hamburger rustico di scottona, pane fresco e salse preparate alla Tana.',
   },
   {
     icon: Bike,
@@ -32,9 +32,9 @@ const highlights = [
     text: 'Il tuo amico a quattro zampe è sempre il benvenuto, dentro e fuori.',
   },
   {
-    icon: Clock,
-    title: 'Pranzo & Cena',
-    text: 'Aperti a cena tutti i giorni e a pranzo da martedì a venerdì. Chiusi il lunedì.',
+    icon: Car,
+    title: 'Parcheggio privato',
+    text: 'Parcheggio riservato e gratuito a pochi passi dal locale, comodo per i clienti de La Tana del Gatto.',
   },
 ]
 

@@ -5,15 +5,18 @@ export default {
     extend: {
       colors: {
         gatto: {
-          950: '#140d09',
-          900: '#1c130d',
-          800: '#2a1d14',
-          700: '#3d2718',
-          600: '#5a3a23',
-          tom: '#c0392b',
-          ember: '#e0772a',
-          gold: '#e3a82e',
-          cream: '#fbf3e4',
+          950: '#081311',
+          900: '#0d1f1c',
+          800: '#143028',
+          700: '#1d4438',
+          600: '#2a5b4d',
+          sage: '#8aa194',
+          basil: '#4fb87f',
+          gold: '#d9a73a',
+          cream: '#f5ebd4',
+          ember: '#e2683a',
+          tom: '#c14a3a',
+          bg: '#081311',
         },
       },
       fontFamily: {

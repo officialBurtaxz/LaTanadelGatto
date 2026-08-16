@@ -1,187 +1,81 @@
 [
   {
     "id": 1,
-    "name": "Antipasti & Stuzzicheria",
-    "description": "Per cominciare, con ingredienti freschi del territorio.",
+    "name": "Pizze Classiche",
+    "description": "Impasto a lunga lievitazione, cotto nel forno a legna.",
     "items": [
-      { "name": "Bruschetta Classica", "description": "Pane casareccio, pomodoro, aglio, olio EVO e basilico.", "prices": [{ "price": "5.50" }] },
-      { "name": "Bruschetta della Tana", "description": "Crema di zucca, gorgonzola dolce e noci.", "badge": "Special", "prices": [{ "price": "6.50" }] },
-      { "name": "Tagliere di Salumi e Formaggi", "description": "Selezione di salumi locali, formaggi stagionati, miele e confettura.", "prices": [{ "price": "9.00" }] },
-      { "name": "Mozzarella in Carrozza", "description": "Pane e mozzarella fritti, appena dorati.", "prices": [{ "price": "6.00" }] },
-      { "name": "Supplì al Telefono", "description": "Risotto al pomodoro filante, impanato e fritto.", "badge": "Tipico", "prices": [{ "price": "4.50" }] },
-      { "name": "Arancini di Riso", "description": "Due pezzi, ripieno di ragù e mozzarella.", "prices": [{ "price": "5.00" }] },
-      { "name": "Crocchè di Patate", "description": "Polpette di patate croccanti, ripiene di mozzarella.", "prices": [{ "price": "4.50" }] },
-      { "name": "Polpette al Sugo", "description": "Pallottine di manzo in sugo di pomodoro.", "prices": [{ "price": "6.00" }] },
-      { "name": "Verdure Fritte di Stagione", "prices": [{ "price": "5.50" }] }
+      { "name": "Marinara", "description": "Pomodoro, olio EVO, origano.", "prices": [{ "price": "6.00" }] },
+      { "name": "Margherita", "description": "Pomodoro, fiordilatte.", "prices": [{ "price": "6.00" }] },
+      { "name": "Napoli", "description": "Pomodoro, fiordilatte, origano, acciughe.", "prices": [{ "price": "6.00" }] },
+      { "name": "Capricciosa", "description": "Pomodoro, fiordilatte, carciofi, prosciutto cotto, funghi trifolati, olive taggiasche, salsiccia.", "prices": [{ "price": "10.00" }] },
+      { "name": "Bufalina", "description": "Pomodoro, mozzarella di bufala, pomodorini.", "prices": [{ "price": "10.00" }] },
+      { "name": "4 Formaggi", "description": "Fiordilatte, gorgonzola, fontina, grana.", "prices": [{ "price": "10.00" }] },
+      { "name": "Diavola", "description": "Pomodoro, fiordilatte, spianata piccante.", "prices": [{ "price": "8.00" }] },
+      { "name": "Vegetariana", "description": "Pomodoro, fiordilatte, zucchine e melanzane grigliate, pomodorini.", "badge": "Veg", "prices": [{ "price": "10.00" }] },
+      { "name": "Pizzaiola", "description": "Pomodoro, fiordilatte, capperi, acciughe, olive taggiasche.", "prices": [{ "price": "8.00" }] },
+      { "name": "Wurstel e Patatine", "prices": [{ "price": "8.00" }] },
+      { "name": "Parma", "description": "Pomodoro, fiordilatte, prosciutto crudo di Parma 24 mesi, servito al piatto.", "prices": [{ "price": "9.00" }] },
+      { "name": "Porcini", "description": "Pomodoro, fiordilatte, funghi porcini.", "badge": "Stagione", "prices": [{ "price": "8.00" }] }
     ]
   },
   {
     "id": 2,
-    "name": "Pizze",
-    "description": "Impasto a lunga lievitazione, cotto nel nostro forno a legna.",
-    "subcategories": [
-      {
-        "id": 21,
-        "name": "Pizze Classiche",
-        "items": [
-          { "name": "Margherita", "description": "Pomodoro, mozzarella fior di latte, basilico.", "prices": [{ "price": "6.00" }] },
-          { "name": "Margherita DOP", "description": "Pomodoro San Marzano, fior di latte DOP, basilico.", "badge": "DOP", "prices": [{ "price": "7.50" }] },
-          { "name": "Napoli", "description": "Pomodoro, mozzarella, acciughe, capperi, origano.", "prices": [{ "price": "7.50" }] },
-          { "name": "Diavola", "description": "Pomodoro, mozzarella, salame piccante.", "prices": [{ "price": "8.00" }] },
-          { "name": "Capricciosa", "description": "Pomodoro, mozzarella, prosciutto cotto, funghi, carciofini, olive.", "prices": [{ "price": "8.50" }] },
-          { "name": "Prosciutto e Funghi", "prices": [{ "price": "8.00" }] },
-          { "name": "Quattro Formaggi", "description": "Mozzarella, gorgonzola, fontina, parmigiano.", "prices": [{ "price": "8.50" }] },
-          { "name": "Vegetariana", "description": "Pomodoro, mozzarella e ortaggi di stagione.", "badge": "Veg", "prices": [{ "price": "8.00" }] },
-          { "name": "Salsiccia e Patate", "prices": [{ "price": "8.00" }] },
-          { "name": "Wurstel e Patatine", "prices": [{ "price": "7.00" }] },
-          { "name": "Calzone Classico", "description": "Ripiegato, con prosciutto cotto, funghi e mozzarella.", "prices": [{ "price": "7.50" }] }
-        ]
-      },
-      {
-        "id": 22,
-        "name": "Speciali della Tana",
-        "items": [
-          { "name": "La Tana del Gatto", "description": "Pomodoro, fior di latte, 'nduja, burrata e un filo di miele.", "badge": "Signature", "prices": [{ "price": "12.50" }] },
-          { "name": "Pistacchiosa", "description": "Crema di pistacchio, mortadella e stracciatella.", "prices": [{ "price": "12.00" }] },
-          { "name": "Tartufata", "description": "Crema di tartufo, funghi porcini, fior di latte.", "prices": [{ "price": "13.00" }] },
-          { "name": "Boreale", "description": "Speck, gorgonzola, radicchio e miele.", "prices": [{ "price": "12.00" }] },
-          { "name": "Di Gatto", "description": "Pomodoro, mozzarella, crudo di Parma, rucola e scaglie di grana.", "prices": [{ "price": "11.50" }] },
-          { "name": "Zucca, Gorgonzola e Noci", "badge": "Veg", "prices": [{ "price": "10.50" }] },
-          { "name": "Bomba d’Autunno", "description": "Zucca, salsiccia, stracciatella e rosmarino.", "prices": [{ "price": "11.50" }] },
-          { "name": "Bufalina", "description": "Pomodoro, mozzarella di bufala campana e basilico.", "badge": "Bufala", "prices": [{ "price": "10.50" }] },
-          { "name": "Burrata e Crudo", "description": "Pomodoro, burrata pugliese e crudo dolce.", "prices": [{ "price": "11.50" }] }
-        ]
-      },
-      {
-        "id": 23,
-        "name": "Gourmet",
-        "items": [
-          { "name": "Bresaola, Rucola e Grana", "badge": "Bianca", "prices": [{ "price": "11.00" }] },
-          { "name": "Caprino e Miele", "description": "Base bianca, caprino, miele e noci.", "badge": "Veg", "prices": [{ "price": "10.50" }] },
-          { "name": "Salsiccia e Friarielli", "prices": [{ "price": "10.50" }] },
-          { "name": "Tonno, Capperi e Cipolla", "prices": [{ "price": "10.00" }] },
-          { "name": "Melanzane e Ricotta Salata", "badge": "Veg", "prices": [{ "price": "10.00" }] }
-        ]
-      }
+    "name": "Specialità",
+    "description": "Le pizze signature della Tana.",
+    "items": [
+      { "name": "Parmigiana", "description": "Pomodoro, fiordilatte, melanzane fritte, prosciutto cotto, grana, uovo sodo, pangrattato.", "prices": [{ "price": "13.00" }] },
+      { "name": "Salsiccia e Friarielli", "description": "Provola affumicata di bufala, salsiccia, friarielli.", "prices": [{ "price": "12.00" }] },
+      { "name": "Fumè", "description": "Provola affumicata di bufala, speck, pomodorini, rucola.", "prices": [{ "price": "12.00" }] },
+      { "name": "Polpettizza", "description": "Pomodoro, fiordilatte, polpette fritte, cacioricotta pugliese a scaglie.", "prices": [{ "price": "8.00" }] },
+      { "name": "Americana", "description": "Fiordilatte, pancetta affumicata, cipolla crispy, salsa cheddar.", "prices": [{ "price": "12.00" }] },
+      { "name": "Calabrese", "description": "Pomodoro, mozzarella di bufala, 'nduja, spianata piccante, cipolla fresca, melanzane fritte.", "badge": "Piccante", "prices": [{ "price": "13.00" }] },
+      { "name": "Pugliese", "description": "Pomodoro, fiordilatte, coppa, stracciatella, tarallino pugliese.", "prices": [{ "price": "8.00" }] },
+      { "name": "Tartina Franca", "description": "Fiordilatte, coppa, cacioricotta pugliese a scaglie, melanzane fritte.", "prices": [{ "price": "12.00" }] },
+      { "name": "Pizza Bus", "description": "Fiordilatte, hamburger, salsa cheddar, cipolla crispy.", "prices": [{ "price": "8.00" }] },
+      { "name": "Polentona", "description": "Fiorilatte, speck, stick di polenta fritta, crema di gorgonzola.", "prices": [{ "price": "14.00" }] }
     ]
   },
   {
     "id": 3,
-    "name": "Hamburger & Panini",
-    "description": "Carne di manzo selezionata, pane fresco e salse della casa.",
-    "subcategories": [
-      {
-        "id": 31,
-        "name": "Hamburger",
-        "items": [
-          { "name": "Classic Burger", "description": "150g di manzo, cheddar, insalata, pomodoro e salsa Tana. Con patatine.", "prices": [{ "price": "10.50" }] },
-          { "name": "Cheeseburger Doppio", "description": "Due medaglioni da 100g, doppio cheddar e bacon croccante.", "prices": [{ "price": "12.50" }] },
-          { "name": "Tana Burger", "description": "180g di manzo, bacon, cipolla caramellata, cheddar affumicato e salsa Tana.", "badge": "Signature", "prices": [{ "price": "13.00" }] },
-          { "name": "BBQ Burger", "description": "150g di manzo, bacon, anelli di cipolla e salsa BBQ.", "prices": [{ "price": "12.00" }] },
-          { "name": "Chicken Burger", "description": "Pollo panato, insalata, pomodoro e maionese della casa.", "prices": [{ "price": "10.00" }] },
-          { "name": "Veggie Burger", "description": "Hamburger di legumi, pomodori secchi e hummus.", "badge": "Veg", "prices": [{ "price": "10.00" }] },
-          { "name": "Big Gatto", "description": "Due medaglioni, formaggio, uovo, bacon e cipolla fritta.", "prices": [{ "price": "13.50" }] }
-        ]
-      },
-      {
-        "id": 32,
-        "name": "Panini (focaccia)",
-        "items": [
-          { "name": "Crudo e Squacquerone", "description": "Focaccia, prosciutto crudo dolce e squacquerone.", "prices": [{ "price": "9.00" }] },
-          { "name": "Salsiccia e Friarielli", "prices": [{ "price": "9.50" }] },
-          { "name": "Salame Piccante e Stracciatella", "prices": [{ "price": "9.00" }] },
-          { "name": "Speck, Brie e Miele", "prices": [{ "price": "9.50" }] }
-        ]
-      }
+    "name": "Gli Hamburger",
+    "description": "Tutti gli hamburger sono accompagnati da patatine.",
+    "items": [
+      { "name": "Classico", "description": "Hamburger rustico di scottona, lattuga, pomodoro, bacon e maionese.", "prices": [{ "price": "13.00" }] },
+      { "name": "4 Formaggi", "description": "Hamburger rustico di scottona, lattuga, coppa e salsa ai formaggi.", "prices": [{ "price": "15.00" }] },
+      { "name": "Hot Burger", "description": "Hamburger rustico di scottona, lattuga, 'nduja, bacon, scaglie di grana, pomodorini, cipolla crispy.", "badge": "Piccante", "prices": [{ "price": "16.00" }] },
+      { "name": "Simone", "description": "Hamburger rustico di scottona, friarielli, stracciatella, bacon e patè di olive.", "prices": [{ "price": "15.00" }] },
+      { "name": "Boscaiola", "description": "Hamburger rustico di scottona, funghi, cipolla, provola di bufala affumicata, salsa BBQ.", "prices": [{ "price": "15.00" }] },
+      { "name": "Cheese & Egg", "description": "Hamburger rustico di scottona, lattuga, uovo fritto, melanzane grigliate, fontina e maionese.", "prices": [{ "price": "16.00" }] },
+      { "name": "Vegetariano", "description": "Hamburger di verdure, lattuga, pomodorini, cipolla, stracciatella.", "badge": "Veg", "prices": [{ "price": "14.00" }] },
+      { "name": "Crudo", "description": "Hamburger rustico di scottona, rucola, pomodorini, mozzarella di bufala, prosciutto crudo di Parma 24 mesi.", "prices": [{ "price": "17.00" }] },
+      { "name": "Pollo Burger", "description": "Hamburger di pollo, lattuga, pomodorini, provola affumicata.", "prices": [{ "price": "14.00" }] },
+      { "name": "Black Angus", "description": "Bun nero al carbone, hamburger di Black Angus olandese, lattuga, cacioricotta a scaglie, cipolla crispy, bacon, salsa BBQ.", "badge": "Premium", "prices": [{ "price": "18.00" }] },
+      { "name": "Nordico", "description": "Hamburger rustico di scottona, lattuga, gorgonzola, speck fritto, salsa cheddar. Accompagnato da stick di polenta.", "prices": [{ "price": "17.00" }] }
     ]
   },
   {
     "id": 4,
-    "name": "Fritti & Contorni",
+    "name": "Carni, Fritti & Supplementi",
+    "description": "Dalla cucina e dalla friggitrice, più i supplementi per personalizzare pizza e hamburger.",
     "items": [
-      { "name": "Patatine Fritte", "description": "Porzione abbondante, da condividere.", "prices": [{ "price": "4.00" }] },
-      { "name": "Patate Speciali della Tana", "description": "Patate, formaggio, bacon e erba cipollina.", "prices": [{ "price": "5.50" }] },
-      { "name": "Anelli di Cipolla", "prices": [{ "price": "4.50" }] },
-      { "name": "Crocché di Patate", "prices": [{ "price": "4.50" }] },
-      { "name": "Polpette al Sugo", "prices": [{ "price": "6.00" }] },
-      { "name": "Insalata Mista", "prices": [{ "price": "4.00" }] }
+      { "name": "Tagliata di Carne", "description": "Servita con contorno della casa.", "prices": [{ "price": "18.00" }] },
+      { "name": "Tris di Polenta", "description": "Tre stick di polenta fritta con crema di formaggio.", "prices": [{ "price": "6.00" }] },
+      { "name": "Fritti Misti della Casa", "description": "Selezione di fritti del giorno.", "prices": [{ "price": "10.00" }] },
+      { "name": "Mezze Lune", "description": "Mezzelune ripiene, fritte.", "prices": [{ "price": "10.00" }] },
+      { "name": "Doppio hamburger di scottona", "badge": "Supplemento", "prices": [{ "price": "3.00" }] },
+      { "name": "Doppia mozzarella", "badge": "Supplemento", "prices": [{ "price": "1.50" }] },
+      { "name": "Doppio impasto", "badge": "Supplemento", "prices": [{ "price": "1.00" }] }
     ]
   },
   {
     "id": 5,
-    "name": "Dolci",
-    "description": "Chiusura dolce, come da tradizione.",
+    "name": "Bibite",
+    "description": "Listino bevande disponibile in locale — birre, vini, cocktail e bibite.",
     "items": [
-      { "name": "Tiramisù", "description": "Ricetta classica, savoiardi e mascarpone.", "badge": "Tipico", "prices": [{ "price": "5.00" }] },
-      { "name": "Panna Cotta ai Frutti di Bosco", "prices": [{ "price": "4.50" }] },
-      { "name": "Torta della Nonna", "description": "Crema pasticcera e pinoli.", "prices": [{ "price": "4.50" }] },
-      { "name": "Gelato Artigianale", "description": "Due palline a scelta.", "prices": [{ "price": "4.00" }] },
-      { "name": "Cannolo Siciliano", "description": "Ricotta dolce e gocce di cioccolato.", "prices": [{ "price": "4.50" }] },
-      { "name": "Brownie con Gelato", "prices": [{ "price": "5.50" }] }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Bevande",
-    "subcategories": [
-      {
-        "id": 61,
-        "name": "Birre alla Spina",
-        "items": [
-          { "name": "La Tana Artigianale", "description": "Birra bionda artigianale del birrificio locale.", "prices": [{ "info": "Piccola 0,2l", "price": "4.00" }, { "info": "Media 0,4l", "price": "5.50" }] },
-          { "name": "Pilsner alla Spina", "prices": [{ "info": "Piccola", "price": "3.50" }, { "info": "Media", "price": "5.00" }] },
-          { "name": "Rossa alla Spina", "description": "Birra rossa dal sapore tostato.", "prices": [{ "info": "Media 0,4l", "price": "6.00" }] }
-        ]
-      },
-      {
-        "id": 62,
-        "name": "Birre in Bottiglia & Lattina",
-        "items": [
-          { "name": "Birra Bionda Artigianale cl 33", "prices": [{ "price": "6.00" }] },
-          { "name": "IPA Artigianale cl 33", "prices": [{ "price": "6.50" }] },
-          { "name": "Birra Rossa Artigianale cl 33", "prices": [{ "price": "6.50" }] },
-          { "name": "Birra Analcolica cl 33", "prices": [{ "price": "4.50" }] },
-          { "name": "Birra Grande cl 66", "prices": [{ "price": "9.00" }] }
-        ]
-      },
-      {
-        "id": 63,
-        "name": "Cocktail & Drink",
-        "items": [
-          { "name": "Aperol Spritz", "prices": [{ "price": "6.50" }] },
-          { "name": "Campari Spritz", "prices": [{ "price": "6.50" }] },
-          { "name": "Hugo", "description": "Prosecco, sciroppo di sambuco, menta e lime.", "prices": [{ "price": "7.00" }] },
-          { "name": "Gin Tonic", "prices": [{ "price": "8.00" }] },
-          { "name": "Negroni", "prices": [{ "price": "8.00" }] },
-          { "name": "Moscow Mule", "prices": [{ "price": "8.00" }] }
-        ]
-      },
-      {
-        "id": 64,
-        "name": "Vini",
-        "items": [
-          { "name": "Vino della Casa", "description": "Bianco o rosso.", "prices": [{ "info": "Calice", "price": "4.00" }, { "info": "1/4 di lt", "price": "8.00" }] },
-          { "name": "Lambrusco Grasparossa", "prices": [{ "info": "Calice", "price": "4.00" }] },
-          { "name": "Pignoletto", "prices": [{ "info": "Calice", "price": "4.50" }] }
-        ]
-      },
-      {
-        "id": 65,
-        "name": "Acqua, Caffè & Digestivi",
-        "items": [
-          { "name": "Acqua Naturale o Frizzante", "prices": [{ "info": "75cl", "price": "2.00" }, { "info": "1l", "price": "2.50" }] },
-          { "name": "Coca Cola 33cl", "prices": [{ "price": "3.50" }] },
-          { "name": "Chinotto 27cl", "prices": [{ "price": "3.50" }] },
-          { "name": "Succo di Frutta", "prices": [{ "price": "3.00" }] },
-          { "name": "Caffè Espresso", "prices": [{ "price": "1.30" }] },
-          { "name": "Caffè Decaffeinato", "prices": [{ "price": "1.50" }] },
-          { "name": "Cappuccino", "prices": [{ "price": "1.60" }] },
-          { "name": "Tè Caldo", "prices": [{ "price": "2.00" }] },
-          { "name": "Limoncello della Casa", "badge": "della Casa", "prices": [{ "price": "3.50" }] },
-          { "name": "Amaro Artigianale", "prices": [{ "price": "3.50" }] },
-          { "name": "Grappa", "prices": [{ "price": "3.50" }] }
-        ]
-      }
+      { "name": "Birre", "description": "Alla spina e in bottiglia, con proposte artigianali.", "prices": [{ "info": "dal listino" }] },
+      { "name": "Vini", "description": "Lambrusco, Pignoletto e vini della casa.", "prices": [{ "info": "dal listino" }] },
+      { "name": "Cocktail", "description": "Spritz, Hugo, Gin Tonic e classici da aperitivo.", "prices": [{ "info": "dal listino" }] },
+      { "name": "Analcolici", "description": "Birra analcolica, Coca Cola, Chinotto, succhi.", "prices": [{ "info": "dal listino" }] }
     ]
   }
 ]

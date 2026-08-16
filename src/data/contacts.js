@@ -37,13 +37,15 @@ export const contacts = {
 
   hours: [
     { day: 'Lunedì', short: 'Lun', closed: true },
-    { day: 'Martedì', short: 'Mar', slots: '12:00–14:00 · 19:00–23:00' },
-    { day: 'Mercoledì', short: 'Mer', slots: '12:00–14:00 · 19:00–23:00' },
-    { day: 'Giovedì', short: 'Gio', slots: '12:00–14:00 · 19:00–23:00' },
-    { day: 'Venerdì', short: 'Ven', slots: '12:00–14:00 · 19:00–23:00' },
+    { day: 'Martedì', short: 'Mar', slots: '19:00–24:00' },
+    { day: 'Mercoledì', short: 'Mer', slots: '19:00–24:00' },
+    { day: 'Giovedì', short: 'Gio', slots: '19:00–24:00' },
+    { day: 'Venerdì', short: 'Ven', slots: '19:00–24:00' },
     { day: 'Sabato', short: 'Sab', slots: '19:00–24:00' },
-    { day: 'Domenica', short: 'Dom', slots: '19:00–23:00' },
+    { day: 'Domenica', short: 'Dom', slots: '19:00–24:00' },
   ],
+
+  hoursNote: 'Orari estivi: aperti solo a cena.',
 
   reviews: [
     {

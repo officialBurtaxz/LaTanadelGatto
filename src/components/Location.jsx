@@ -192,6 +192,11 @@ export default function Location() {
                   {status.open ? 'Aperto ora' : 'Chiuso ora'}
                 </span>
               </div>
+              {contacts.hoursNote ? (
+                <p className="mb-4 -mt-1 text-xs text-gatto-gold/90 font-medium">
+                  {contacts.hoursNote}
+                </p>
+              ) : null}
               <ul className="space-y-1.5">
                 {contacts.hours.map((h, i) => (
                   <li

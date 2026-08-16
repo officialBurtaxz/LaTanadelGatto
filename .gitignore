@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.tmp/
+
+
+# OCR/tesseract cache
+*.traineddata
+*.cache-key
+

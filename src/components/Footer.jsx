@@ -1,5 +1,4 @@
 import { MapPin, Phone, Clock, MessageCircle, Utensils } from 'lucide-react'
-import Logo from './Logo'
 import InstagramIcon from './InstagramIcon'
 import { contacts } from '../data/contacts'
 
@@ -12,7 +11,11 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-10">
           <div className="text-center md:text-left max-w-xs">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-3">
-              <Logo size={48} />
+              <img
+                src="/logo.jpg"
+                alt="La Tana del Gatto"
+                className="w-12 h-12 rounded-full object-cover border-2 border-gatto-gold"
+              />
               <span className="font-display text-xl font-bold text-gatto-cream">
                 La Tana del Gatto
               </span>
@@ -42,7 +45,7 @@ export default function Footer() {
             </a>
             <span className="flex items-center gap-2">
               <Clock size={16} />
-              Lun chiuso · Mar–Ven 12–14 / 19–23 · Sab 19–24 · Dom 19–23
+              Lun chiuso · Mar–Dom 19:00–24:00 (solo cena)
             </span>
           </div>
 

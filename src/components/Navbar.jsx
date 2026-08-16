@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X, Star } from 'lucide-react'
 import gsap from 'gsap'
-import Logo from './Logo'
 import { contacts } from '../data/contacts'
 
 const navLinks = [
@@ -72,9 +71,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link to="/" className="flex items-center gap-2.5 group">
-            <span className="shrink-0 group-hover:scale-105 transition-transform">
-              <Logo size={44} />
-            </span>
+            <img
+              src="/logo.jpg"
+              alt="La Tana del Gatto"
+              className="shrink-0 h-10 w-10 sm:h-11 sm:w-11 rounded-full object-cover border-2 border-gatto-gold group-hover:scale-105 transition-transform"
+            />
             <span className="flex flex-col leading-none">
               <span className="font-display text-lg sm:text-xl font-bold text-gatto-cream tracking-tight">
                 La Tana del Gatto
