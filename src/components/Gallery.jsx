@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import InstagramIcon from './InstagramIcon'
 import galleryData from '../data/gallery.json'
 import { contacts } from '../data/contacts'
+import { asset } from '../utils/asset'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -80,7 +81,7 @@ export default function Gallery() {
             >
               <div className="absolute inset-0 bg-gatto-950/30 group-hover:bg-gatto-950/10 transition-colors" />
               <img
-                src={`/gallery/${item.file}`}
+                src={asset(`/gallery/${item.file}`)}
                 alt={item.caption}
                 loading="lazy"
                 className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${

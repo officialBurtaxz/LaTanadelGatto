@@ -8,6 +8,10 @@ import {
 import Home from './pages/Home'
 import MenuPage from './pages/MenuPage'
 
+// Base path per il deploy (GitHub Pages serve sotto /LaTanadelGatto/).
+// In dev BASE_URL = "/" -> basename vuoto, in prod = "/LaTanadelGatto/".
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
+
 function ScrollToHash() {
   const { hash, pathname } = useLocation()
 
@@ -30,7 +34,7 @@ function ScrollToHash() {
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <ScrollToHash />
       <Routes>
         <Route path="/" element={<Home />} />

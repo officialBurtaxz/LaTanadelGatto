@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { Menu, X, Star } from 'lucide-react'
 import gsap from 'gsap'
 import { contacts } from '../data/contacts'
+import { asset } from '../utils/asset'
 
 const navLinks = [
   { label: 'Home', to: '/#home' },
@@ -72,7 +73,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link to="/" className="flex items-center gap-2.5 group">
             <img
-              src="/logo.jpg"
+              src={asset('/logo.jpg')}
               alt="La Tana del Gatto"
               className="shrink-0 h-10 w-10 sm:h-11 sm:w-11 rounded-full object-cover border-2 border-gatto-gold group-hover:scale-105 transition-transform"
             />

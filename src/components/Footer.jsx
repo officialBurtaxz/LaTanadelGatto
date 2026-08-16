@@ -1,6 +1,7 @@
 import { MapPin, Phone, Clock, MessageCircle, Utensils } from 'lucide-react'
 import InstagramIcon from './InstagramIcon'
 import { contacts } from '../data/contacts'
+import { asset } from '../utils/asset'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -12,7 +13,7 @@ export default function Footer() {
           <div className="text-center md:text-left max-w-xs">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-3">
               <img
-                src="/logo.jpg"
+                src={asset('/logo.jpg')}
                 alt="La Tana del Gatto"
                 className="w-12 h-12 rounded-full object-cover border-2 border-gatto-gold"
               />

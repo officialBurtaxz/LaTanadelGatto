@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import { Link } from 'react-router-dom'
 import { ChevronDown, MessageCircle, Utensils, Star } from 'lucide-react'
 import { contacts } from '../data/contacts'
+import { asset } from '../utils/asset'
 
 export default function Hero() {
   const sectionRef = useRef(null)
@@ -94,7 +95,7 @@ export default function Hero() {
         <div ref={logoRef} className="relative mb-6 sm:mb-8">
           <div className="absolute -inset-3 sm:-inset-4 rounded-full border border-dashed border-gatto-gold/30 animate-spin-slow" />
           <img
-            src="/logo.jpg"
+            src={asset('/logo.jpg')}
             alt="La Tana del Gatto"
             className="relative z-10 w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full object-cover border-4 border-gatto-gold shadow-2xl shadow-black/50"
           />
