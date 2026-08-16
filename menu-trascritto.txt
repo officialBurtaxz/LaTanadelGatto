@@ -1,0 +1,291 @@
+LA TANA DEL GATTO
+PIZZERIA & HAMBURGERIA
+
+TRASCRIZIONE DEL MENU DAL PDF
+
+Indicazioni per l'agente:
+- Usare esclusivamente le voci, le descrizioni, i prezzi e le note presenti in questo file.
+- Non inventare prodotti, ingredienti, varianti o prezzi.
+- Mantenere le categorie nell'ordine indicato.
+- I prezzi sono espressi in euro e riportati con la virgola decimale.
+
+
+PAGINA 1 - PIZZERIA
+
+PIZZE CLASSICHE
+
+MARINARA
+Ingredienti: pomodoro, aglio, origano
+Prezzo: EUR 5,00
+
+MARGHERITA
+Ingredienti: pomodoro, fiordilatte
+Prezzo: EUR 6,00
+
+NAPOLI
+Ingredienti: pomodoro, fiordilatte, origano, acciughe
+Prezzo: EUR 8,00
+
+CAPRICCIOSA
+Ingredienti: pomodoro, fiordilatte, carciofi, prosciutto cotto, funghi trifolati, olive taggiasche, salsiccia
+Prezzo: EUR 10,00
+
+BUFALINA
+Ingredienti: pomodoro, mozzarella di bufala, pomodorini
+Prezzo: EUR 10,00
+
+4 FORMAGGI
+Ingredienti: fiordilatte, gorgonzola, fontina, grana
+Prezzo: EUR 10,00
+
+DIAVOLA
+Ingredienti: pomodoro, fiordilatte, spianata piccante
+Prezzo: EUR 8,00
+
+VEGETARIANA
+Ingredienti: pomodoro, fiordilatte, zucchine e melanzane grigliate, pomodorini
+Prezzo: EUR 10,00
+
+ROMANA
+Ingredienti: pomodoro, fiordilatte, capperi, acciughe, olive taggiasche
+Prezzo: EUR 9,00
+
+WURSTEL E PATATINE
+Prezzo: EUR 8,00
+
+PARMA
+Ingredienti: pomodoro, fiordilatte, prosciutto crudo di Parma 24 mesi servito al piatto
+Prezzo: EUR 11,00
+
+PORCINI
+Ingredienti: pomodoro, fiordilatte, funghi porcini
+Prezzo: EUR 9,00
+
+
+PAGINA 2 - PIZZERIA
+
+SPECIALITA'
+
+PARMIGIANA
+Ingredienti: pomodoro, fiordilatte, melanzane fritte, prosciutto cotto, grana, uovo sodo, pangrattato
+Prezzo: EUR 13,00
+
+TARANTELLA
+Ingredienti: provola affumicata di bufala, salsiccia, friarielli
+Prezzo: EUR 12,00
+
+FUME'
+Ingredienti: provola affumicata di bufala, speck, pomodorini, rucola
+Prezzo: EUR 12,00
+
+POLPETTOSA
+Ingredienti: pomodoro, fiordilatte, polpette fritte, cacioricotta pugliese a scaglie
+Prezzo: EUR 13,00
+
+AMERICANA
+Ingredienti: fiordilatte, pancetta affumicata, cipolla crispy, salsa cheddar
+Prezzo: EUR 12,00
+
+CALABRESE
+Ingredienti: pomodoro, mozzarella di bufala, 'nduja, spianata piccante, cipolla fresca, melanzane fritte
+Prezzo: EUR 12,00
+
+PUGLIESE
+Ingredienti: pomodoro, fiordilatte, coppa, stracciatella, tarallino pugliese
+Prezzo: EUR 11,00
+
+MARTINA FRANCA
+Ingredienti: fiordilatte, coppa, cacioricotta pugliese a scaglie, melanzane fritte
+Prezzo: EUR 12,00
+
+PIZZA BURGER
+Ingredienti: fiordilatte, hamburger, salsa cheddar, cipolla crispy
+Prezzo: EUR 13,00
+
+POLENTONA
+Ingredienti: fiordilatte, speck, stick di polenta fritta, crema di gorgonzola
+Prezzo: EUR 14,00
+
+
+PAGINA 3 - GLI HAMBURGER
+
+- Tutti accompagnati da patatine -
+
+CLASSICO
+Ingredienti: hamburger rustico di scottona, lattuga, pomodoro, bacon e maionese
+Prezzo: EUR 13,00
+
+WILD
+Ingredienti: hamburger rustico di scottona, lattuga, coppa e salsa ai formaggi
+Prezzo: EUR 15,00
+
+HOT BURGER
+Ingredienti: hamburger rustico di scottona, lattuga, 'nduja, bacon, scaglie di grana, pomodorini, cipolla crispy
+Prezzo: EUR 16,00
+
+CIMONE
+Ingredienti: hamburger rustico di scottona, friarielli, stracciatella, bacon e pate' di olive
+Prezzo: EUR 15,00
+
+CAMPAGNOLO
+Ingredienti: hamburger rustico di scottona, funghi, cipolla, provola di bufala affumicata, salsa BBQ
+Prezzo: EUR 15,00
+
+COCCODE'
+Ingredienti: hamburger rustico di scottona, lattuga, uovo fritto, melanzane grigliate, fontina e maionese
+Prezzo: EUR 16,00
+
+VEGETARIANO
+Ingredienti: hamburger di verdure, lattuga, pomodorini, cipolla, stracciatella
+Prezzo: EUR 14,00
+
+ITALIANO
+Ingredienti: hamburger rustico di scottona, rucola, pomodorini, mozzarella di bufala, prosciutto crudo di Parma 24 mesi
+Prezzo: EUR 17,00
+
+POLLO BURGER
+Ingredienti: hamburger di pollo, lattuga, pomodorini, provola affumicata, maionese
+Prezzo: EUR 14,00
+
+BLACK ANGUS
+Ingredienti: bun nero al carbone, hamburger di Black Angus irlandese, lattuga, cacioricotta a scaglie, cipolla crispy, bacon, salsa BBQ
+Prezzo: EUR 18,00
+
+TIROLESE
+Ingredienti: hamburger rustico di scottona, lattuga, gorgonzola, speck fritto, salsa cheddar
+Nota: accompagnato da stick di polenta
+Prezzo: EUR 17,00
+
+
+PAGINA 4 - CARNE, FRIGGITORIA, INSALATONE E SUPPLEMENTI
+
+...ED ANCORA CARNE
+
+RIBS
+Descrizione: costine di maiale in salsa BBQ - 700 gr
+Nota: accompagnato da patatine o lattuga
+Prezzo: EUR 20,00
+
+TAGLIATA DI CARNE
+Ingredienti: rucola, pomodorini, scaglie grana
+Prezzo: EUR 20,00
+
+
+LA FRIGGITORIA
+
+PATATINE
+Prezzo: EUR 6,00
+
+STICK DI POLENTA
+Nota: accompagnati da salsa ai formaggi
+Prezzo: EUR 7,00
+
+COCKTAIL DI FRITTI
+Ingredienti: crocchè di mozzarella, polpettine di melanzana, frittatine di spaghetti, arancine al sugo, delizie ai formaggi
+Prezzo: EUR 8,00
+
+
+LE INSALATONE
+
+MEDITERRANEA
+Ingredienti: lattuga, mozzarella di bufala, pomodorini, olive taggiasche, tonno
+Prezzo: EUR 10,00
+
+COLORATA
+Ingredienti: lattuga, rucola, scaglie di grana, prosciutto cotto, tarallini pugliesi, salsa yogurt
+Prezzo: EUR 10,00
+
+
+SUPPLEMENTI HAMBURGER
+
+Doppio hamburger di scottona
+Prezzo: EUR 5,00
+
+Doppio hamburger di Angus
+Prezzo: EUR 6,00
+
+Prosciutto di Parma 24 mesi
+Prezzo: EUR 3,00
+
+Condimenti
+Prezzo: EUR 2,00
+
+
+SUPPLEMENTI PIZZERIA
+
+Impasto integrale
+Prezzo: EUR 1,00
+
+Tirata
+Prezzo: EUR 2,00
+
+Prosciutto crudo di Parma 24 mesi
+Prezzo: EUR 3,00
+
+Doppia mozzarella
+Prezzo: EUR 1,50
+
+Doppia bufala
+Prezzo: EUR 2,50
+
+Doppio impasto
+Prezzo: EUR 1,00
+
+Condimenti
+Prezzo: EUR 2,00
+
+
+PAGINA 5 - BIBITE E ALLERGENI
+
+BIBITE
+
+Acqua naturale 75cl
+Prezzo: EUR 2,50
+
+Acqua gassata 75cl
+Prezzo: EUR 2,50
+
+Coca Cola 33cl
+Prezzo: EUR 3,50
+
+Coca Cola Zero 33cl
+Prezzo: EUR 3,50
+
+Coca Cola alla spina media
+Prezzo: EUR 5,00
+
+Fanta 33cl
+Prezzo: EUR 3,50
+
+Caffe'
+Prezzo: EUR 1,50
+
+Amari
+Prezzo: EUR 4,00
+
+Coperto
+Prezzo: EUR 2,00
+
+
+ELENCO ALLERGENI
+
+Glutine
+Crostacei e derivati
+Uova
+Pesce e derivati
+Arachidi e derivati
+Soia e derivati
+Latte e derivati
+Frutta a guscio e derivati
+Sedano e derivati
+Senape e derivati
+Semi di sesamo e derivati
+Anidride solforosa e solfiti
+Lupino e derivati
+Molluschi e derivati
+
+
+NOTE DI TRASCRIZIONE
+
+- Il PDF usa una grafia molto stilizzata e in alcuni titoli gli accenti sono rappresentati come apostrofi. Sono state mantenute le diciture leggibili nel documento: FUME', SPECIALITA' e COCCODE'.
+- La voce "Crocchè di mozzarella" è stata trascritta nella forma più leggibile dall'immagine.

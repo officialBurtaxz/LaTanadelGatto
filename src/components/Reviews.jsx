@@ -116,9 +116,12 @@ export default function Reviews() {
           {contacts.reviews.map((review, idx) => (
             <figure
               key={idx}
-              className="relative p-6 sm:p-7 rounded-2xl bg-gatto-900/70 border border-gatto-gold/10 hover:border-gatto-gold/30 transition-colors"
+              className="relative p-6 sm:p-7 pt-10 sm:pt-12 rounded-2xl bg-gatto-900/70 border border-gatto-gold/10 hover:border-gatto-gold/30 transition-colors flex flex-col items-center text-center"
             >
-              <span className="absolute -top-4 left-6 font-display text-6xl leading-none text-gatto-gold/30 select-none">
+              <span
+                aria-hidden="true"
+                className="absolute top-3 left-1/2 -translate-x-1/2 font-display text-6xl leading-none text-gatto-gold/30 select-none"
+              >
                 &ldquo;
               </span>
               <div className="flex items-center gap-0.5 mb-4">

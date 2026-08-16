@@ -6,6 +6,9 @@ import {
   X,
   MessageCircle,
   Utensils,
+  Leaf,
+  Flame,
+  Star,
 } from 'lucide-react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -58,6 +61,49 @@ for (const cat of menuData) {
   if (cat.description) categoryDescriptions.set(cat.name, cat.description)
 }
 
+/**
+ * Badge taxonomy — caratteristiche del piatto, mappate a uno stile fisso.
+ * Ogni badge noto ha icona + classe colore semantica coerente.
+ * Un valore non presente nella mappa NON viene renderizzato: questo costringe
+ * ad aggiungere qui ogni nuova caratteristica, invece di usare stringhe a caso.
+ *
+ *   Veg      -> piatto senza carne/pesce       (verde, foglia)
+ *   Piccante -> contiene 'nduja/spianata/picc. (rosso, fiamma)
+ *   Premium  -> taglio/ingrediente di pregio  (oro, stella)
+ */
+const BADGE_STYLES = {
+  Veg: { icon: Leaf, className: 'bg-gatto-basil/15 text-gatto-basil border-gatto-basil/30' },
+  Piccante: { icon: Flame, className: 'bg-gatto-tom/15 text-gatto-tom border-gatto-tom/30' },
+  Premium: { icon: Star, className: 'bg-gatto-gold/15 text-gatto-gold border-gatto-gold/30' },
+}
+
+function Badge({ value }) {
+  const conf = BADGE_STYLES[value]
+  if (!conf) return null
+  const Icon = conf.icon
+  return (
+    <span
+      className={`inline-flex items-center gap-1 px-2 py-0.5 text-[10px] sm:text-xs font-bold uppercase tracking-wider rounded-full border ${conf.className}`}
+    >
+      <Icon size={11} className="shrink-0" />
+      {value}
+    </span>
+  )
+}
+
+/**
+ * Chip porzione — attributo di quantità, distinto dal badge di caratteristica.
+ * Stile neutro (sage) per differenziarlo dalle caratteristiche alimentari.
+ */
+function PortionChip({ value }) {
+  if (!value) return null
+  return (
+    <span className="inline-flex items-center px-2 py-0.5 text-[10px] sm:text-xs font-semibold rounded-full border border-gatto-sage/30 bg-gatto-sage/10 text-gatto-sage">
+      {value}
+    </span>
+  )
+}
+
 function ProductCard({ item }) {
   return (
     <div className="group flex flex-col sm:flex-row gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl bg-gatto-950/50 border border-gatto-gold/10 hover:border-gatto-gold/30 hover:bg-gatto-950 transition-all">
@@ -68,10 +114,11 @@ function ProductCard({ item }) {
               {item.name}
             </h3>
           </div>
-          {item.badge ? (
-            <span className="mt-1.5 inline-flex self-start px-2 py-0.5 text-[10px] sm:text-xs font-bold uppercase tracking-wider rounded bg-gatto-tom/20 text-gatto-gold">
-              {item.badge}
-            </span>
+          {item.badge || item.portion ? (
+            <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+              {item.badge ? <Badge value={item.badge} /> : null}
+              {item.portion ? <PortionChip value={item.portion} /> : null}
+            </div>
           ) : null}
           {item.description ? (
             <p className="mt-2 text-xs sm:text-sm text-gatto-cream/60 leading-relaxed whitespace-pre-line">
@@ -163,9 +210,20 @@ export default function MenuPage() {
               Il nostro menu
             </h1>
             <p className="mt-3 text-base sm:text-lg text-gatto-cream/70 max-w-2xl">
-              Pizza del forno a legna, hamburger, panini, fritti, dolci e
-              bevande. Il listino può variare stagionalmente.
+              Pizze classiche e speciali, hamburger, carne, friggitoria,
+              insalatone e bibite. Il listino può variare stagionalmente.
             </p>
+
+            {/* Legenda caratteristiche */}
+            <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
+              <span className="text-xs uppercase tracking-[0.2em] text-gatto-cream/40 font-semibold">
+                Legenda
+              </span>
+              <Badge value="Veg" />
+              <Badge value="Piccante" />
+              <Badge value="Premium" />
+              <PortionChip value="porzione" />
+            </div>
           </div>
         </div>
 
