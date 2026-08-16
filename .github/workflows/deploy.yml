@@ -32,8 +32,29 @@ jobs:
       - name: Build (base = /LaTanadelGatto/)
         run: npx vite build --base=/LaTanadelGatto/
 
-      - name: SPA fallback (404.html = index.html)
-        run: cp dist/index.html dist/404.html
+      - name: SPA fallback (404.html -> redirect to index)
+        shell: bash
+        run: |
+          cat > dist/404.html <<'HTML'
+          <!doctype html>
+          <html lang="it">
+            <head>
+              <meta charset="UTF-8" />
+              <title>La Tana del Gatto</title>
+              <script>
+                // GitHub Pages serves 404.html for unknown paths.
+                // Redirect to the SPA index keeping the requested path,
+                // so react-router can pick it up.
+                var basePath = '/LaTanadelGatto/';
+                var path = window.location.pathname;
+                var rel = path.indexOf(basePath) === 0 ? path.slice(basePath.length) : path.replace(/^\//, '');
+                var target = basePath + (rel ? '#' + rel : '');
+                window.location.replace(target);
+              </script>
+            </head>
+            <body></body>
+          </html>
+          HTML
 
       - uses: actions/upload-pages-artifact@v3
         with:
